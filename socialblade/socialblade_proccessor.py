@@ -5,8 +5,6 @@ from random import randint
 from datetime import datetime
 from dateutil.parser import parse
 from bs4 import BeautifulSoup
-import lxml
-from lxml import html
 
 
 class SocialbladeProcessor(object):

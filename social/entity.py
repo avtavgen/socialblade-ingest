@@ -1,5 +1,3 @@
-import helpers
-
 
 def batches(iterable, n=10):
     """divide a single list into a list of lists of size n """
