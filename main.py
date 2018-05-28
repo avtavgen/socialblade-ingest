@@ -12,5 +12,5 @@ if __name__ == "__main__":
     ingest_log.info('Starting job')
 
     ingest_log.info('Fetching socialblade user data')
-    entity = SocialStatements(ingest_log, ska.engine) # , ska.engine
+    entity = SocialStatements(ingest_log, ska.engine) # 
     processor = SocialbladeProcessor(entity, ingest_log).fetch()
