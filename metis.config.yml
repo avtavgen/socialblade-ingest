@@ -1,0 +1,7 @@
+project_token: 83491f3e258100e5b0105dd0
+name: socialblade-social-ingest
+jobs: 
+  - job_id: 469ffccf-1f24-4b26-a843-cf0191ca0f02
+    language: python
+    name: Main
+    entrypoint: "main.py"
