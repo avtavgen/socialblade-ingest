@@ -27,7 +27,7 @@ class SocialStatements:
             "country": "text",
             "channel_type": "text",
             "user_created": "date",
-            "total_grade": "int",
+            "total_grade": "text",
             "subscriber_rank": "int",
             "video_view_rank": "int",
             "socialblade_rank": "int",
