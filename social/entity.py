@@ -15,7 +15,7 @@ class SocialStatements:
         self.relations = []
 
     user_schema = {
-        "table_name": "socialblade_user",
+        "table_name": "user_info",
         "options": {
             "primary_key": ["name"]
         },
