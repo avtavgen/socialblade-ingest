@@ -17,8 +17,7 @@ class SocialStatements:
     user_schema = {
         "table_name": "socialblade_user",
         "options": {
-            "primary_key": ["date"],
-            "order_by": ["date desc"]
+            "primary_key": ["name"]
         },
         "columns": {
             "name": "text",
