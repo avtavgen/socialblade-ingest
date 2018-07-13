@@ -15,7 +15,7 @@ class SocialStatements:
         self.relations = []
 
     user_schema = {
-        "table_name": "user_info",
+        "table_name": "user",
         "options": {
             "primary_key": ["name"]
         },
@@ -33,6 +33,8 @@ class SocialStatements:
             "socialblade_rank": "int",
             "views_for_he_last_30_days": "int",
             "subscribers_for_he_last_30_days": "int",
+            "estimated_monthly_earnings": "text",
+            "estimated_yearly_earnings": "text",
             "youtube_url": "text",
             "facebook_url": "text",
             "twitter_url": "text",
